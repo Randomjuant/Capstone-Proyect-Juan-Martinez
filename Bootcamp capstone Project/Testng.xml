@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/marti/IdeaProjects/Bootcamp Capstone Project">
+        <groups>
+            <run>
+
+                <include name="letsstart"/>
+                <include name="SR-12111"/>
+                <include name="SR-12120"/>
+                <include name="SR-12121"/>
+                <include name="SR-12130"/>
+                <include name="Final Buy"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ElementTest"/>
+
+        </classes>
+    </test>
+</suite>

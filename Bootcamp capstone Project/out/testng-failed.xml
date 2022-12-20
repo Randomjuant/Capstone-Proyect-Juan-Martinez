@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="C:/Users/marti/IdeaProjects/Bootcamp Capstone Project" verbose="2">
+    <groups>
+      <run>
+        <include name="letsstart"/>
+        <include name="SR-12111"/>
+        <include name="SR-12120"/>
+        <include name="SR-12121"/>
+        <include name="SR-12130"/>
+        <include name="Final Buy"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ElementTest"/>
+    </classes>
+  </test> <!-- C:/Users/marti/IdeaProjects/Bootcamp Capstone Project -->
+</suite> <!-- Failed suite [All Test Suite] -->

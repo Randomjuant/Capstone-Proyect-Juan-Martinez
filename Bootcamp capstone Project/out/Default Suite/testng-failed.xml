@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Bootcamp capstone Project">
+    <classes>
+      <class name="ElementTest">
+        <methods>
+          <include name="CompareCategory"/>
+        </methods>
+      </class> <!-- ElementTest -->
+    </classes>
+  </test> <!-- Bootcamp capstone Project -->
+  <test name="Bootcamp capstone Project(failed)">
+    <classes>
+      <class name="ElementTest">
+        <methods>
+          <include name="RunWebPage"/>
+          <include name="CompareCategory"/>
+        </methods>
+      </class> <!-- ElementTest -->
+    </classes>
+  </test> <!-- Bootcamp capstone Project(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
